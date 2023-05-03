@@ -36,6 +36,11 @@ h1{
 	margin-bottom: 50px;
 }
 
+section{
+	font: Lato;
+}
+
+
 p{
 	font: 20px Lato, sans-serif;
 	color: #000;
