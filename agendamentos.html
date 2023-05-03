@@ -5,14 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Esqueleto na Mesa: Agendamento</title>
 </head>
-	<body link="#000000" alink="#000000" vlink="#000000">
-		<img src="img/bannern.png" width="100%">
-		<font face="Lato" size="5">
-			<h1 align="center">Esqueleto na Mesa: mergulhe no universo de RPG de mesa</h1>
-		</font>
-
-		<center>
-			<font face="Lato" size="5">
+	<body>
+		<img src="img/bannern.png">
+			<h1>Esqueleto na Mesa: mergulhe no universo de RPG de mesa</h1>
 			
 				<a href="index.html">HOME</a>
 				<a href="index.html#pag_regras">REGRAS DO JOGO</a>
@@ -20,31 +15,30 @@
 	    		<a href="index.html#pag_vantagens">VANTAGENS</a>
 	    		<a href="#">AGENDAMENTO</a>
 			
-			</font>
-		</center>
+
 		<hr/>
-		<font face="Lato" size="4"><h1 align="center">AGENDAMENTO</h1>
-			<p>Agende sua mesa de <b>RPG agora mesmo!</b></p>
+			<h1>AGENDAMENTO</h1>
+			<p>Agende sua mesa de <strong>RPG agora mesmo!</strong></p>
 
 		<form name="Agendamento" method="" action="">
 
 			<label for="nome">Nome:</label><br/>
-			<input id="nome_completo" type="text" name="name_sub" size="80" placeholder="Digite seu nome completo." required="true" autofocus="" /><br/>
+			<input id="nome_completo" type="text" name="name_sub" placeholder="Digite seu nome completo." required="true" autofocus="" />
 
 			<label for="email">E-mail:</label><br/>
-			<input id="email" type="email" name="email" size="80" placeholder="nome@email.com" required="true" /><br/>
+			<input id="email" type="email" name="email" placeholder="nome@email.com" required="true" />
 
 			<label for="Senha">Senha:</label><br/>
-			<input id="senha" type="password" name="senha" size="80" placeholder="Somente numeros" required="true" /><br/>
+			<input id="senha" type="password" name="senha" placeholder="Somente numeros" required="true" />
 
 			<label for="cell">Celular:</label><br/>
-			<input id="cell" type="tel" name="cell" size="80" placeholder="(12) 34567-7890" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" required="true" /><br/>
+			<input id="cell" type="tel" name="cell" placeholder="(12) 34567-7890" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" required="true" />
 			
 			<label for="data">Data:</label>
-			<input id="data" type="date" name="data" size="80" placeholder="XX/XX/XX" required="true" />
+			<input id="data" type="date" name="data" placeholder="XX/XX/XX" required="true" />
 
 			<label for="hour">Hora:</label>
-			<input id="hour" type="time" name="hour" size="80" placeholder="00:00" required="true" />
+			<input id="hour" type="time" name="hour" placeholder="00:00" required="true" />
 
 			<label for="nivel">Nível:</label>
 			<select id="nivel" name="nivel">
@@ -59,15 +53,15 @@
 
 			<fieldset>
 				 <legend>Gênero:</legend>
-				 <input id="Masc" type="radio" name="genero" value="Masc" /><label for="Masc">Masculino</label></br>
-				 <input id="Fem" type="radio" name="genero" value="Fem" /><label for="Fem">Feminino</label>
+				 <input id="Masc" type="radio" name="genero" value="Masc" /><label for="Masc">Masculino</label><br\>
+				 <input id="Fem" type="radio" name="genero" value="Fem" /><label for="Fem">Feminino</label><br\>
 			</fieldset>
 
 			<fieldset>
 				<legend>Sistema:</legend>
-				<input id="DeD" type="checkbox" name="DeD" value="DeD" /><label for="DeD">Dungeons & Dragons (D&D)</label><br/>
-				<input id="Cyber" type="checkbox" name="Cyber" value="Cyber" /><label for="Cyber">Cyberpunk 2020</label><br/>
-				<input id="Call" type="checkbox" name="Call" value="Call" /><label for="Call">Call of Cthulhu</label><br/>
+				<input id="DeD" type="checkbox" name="DeD" value="DeD" /><label for="DeD">Dungeons & Dragons (D&D)</label><br\>
+				<input id="Cyber" type="checkbox" name="Cyber" value="Cyber" /><label for="Cyber">Cyberpunk 2020</label><br\>
+				<input id="Call" type="checkbox" name="Call" value="Call" /><label for="Call">Call of Cthulhu</label><br\>
 			</fieldset>
 
 			<label>Mensagem:</label></form><br/>
@@ -78,9 +72,6 @@
 			<input type="reset" name="btn-cancelar" value="CANCELAR" /></p>
 
 		</form>
-
-		<hr/>
-		 <b><p align="center">Desenvolvido por <a href="https://github.com/MoonThi" target="blank">Thiago Amâncio</a>- 2023 </p></b>
-		</font>
+		<p>Desenvolvido por <a href="https://github.com/MoonThi" target="blank">Thiago Amâncio</a>- 2023 </p>
 	</body>
 </html>
