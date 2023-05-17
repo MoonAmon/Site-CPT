@@ -24,23 +24,15 @@ nav{
 a{
 	font: 25px Poppins, sans-serif;
 	text-align: center;
-<<<<<<< HEAD
-	text-decoration: none;
-=======
->>>>>>> cf49ca91718c3895af0d9e97a885c733f30a64c3
-	
+	text-decoration: none;	
 }
 
 .a_menu{
-<<<<<<< HEAD
-=======
 	text-decoration: none;
->>>>>>> cf49ca91718c3895af0d9e97a885c733f30a64c3
 	margin-right: 30px;
 
 }
 
-<<<<<<< HEAD
 .a_menu:link ,.a_menu:visited{
 	color: #000;
 
@@ -50,14 +42,11 @@ a{
 	color: #ffffff;
 }
 
-=======
+
 .a_menu:hover, .a_menu:active{
 	color: #ffffff;
 }
 
-
-
->>>>>>> cf49ca91718c3895af0d9e97a885c733f30a64c3
 main, #pag_regras, #pag_regras, #pag_sistemas, #pag_vantagens{
 	padding: 70px;
 }
