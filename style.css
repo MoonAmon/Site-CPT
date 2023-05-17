@@ -9,6 +9,7 @@
 
 header, #img_banner{
 	width: 100%;
+	height: 620px;
 	background-color: #d87cff;
 	
 }
@@ -21,12 +22,24 @@ nav{
 }
 
 a{
-	color: #000000;
 	font: 25px Poppins, sans-serif;
 	text-align: center;
 	text-decoration: none;
-	margin-right: 30px;
 	
+}
+
+.a_menu{
+	margin-right: 30px;
+
+}
+
+.a_menu:link ,.a_menu:visited{
+	color: #000;
+
+}
+
+.a_menu:hover{
+	color: #ffffff;
 }
 
 main, #pag_regras, #pag_regras, #pag_sistemas, #pag_vantagens{
@@ -122,8 +135,73 @@ h3{
 	background-color: #d87cff;
 }
 
-footer{
-	text-align: center;
 
+#pag_vantagens p{
+	
+}
+
+#pag_vantagens p{
+	margin-bottom: 20px;
+	
+}
+
+#container_vantagens{
+	display: flex;
+	
+}
+
+.coluna_vant{
+	padding: 70px;
+	padding-left: 10px;
+	padding-top: 30px;
+	
+}
+
+
+.container_icons{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.container_icons p{
+	font: 25px Poppins, italic, bold;
+	padding-top: 30px;
+}
+
+video{
+	
+}
+
+.img_icons{
+	padding: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+#img_insta{
+	width: 30px;
+	height: 30px;
+}
+
+#img_email{
+	width: 40px;
+	height: 30px;
+}
+
+footer{
+	padding: 10px;
+
+}
+
+footer p{
+	text-align: center;
+}
+
+footer a:hover{
+	color: #d87cff;
 }
 
