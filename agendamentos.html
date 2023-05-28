@@ -4,21 +4,25 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Esqueleto na Mesa: Agendamento</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 	<body>
-		<img src="img/bannern.png">
-			<h1>Esqueleto na Mesa: mergulhe no universo de RPG de mesa</h1>
+		<header>
+			<img id="img_banner" src="img/bannern.png">
+		</header>
+				<nav>
+					<a class="a_menu" href="index.html">HOME</a>
+					<a class="a_menu" href="index.html#pag_regras">REGRAS DO JOGO</a>
+					<a class="a_menu" href="index.html#pag_sistemas">SISTEMAS</a>
+					<a class="a_menu" href="index.html#pag_vantagens">VANTAGENS</a>
+					<a class="a_menu" href="#">AGENDAMENTO</a>
+				</nav>
 			
-				<a href="index.html">HOME</a>
-				<a href="index.html#pag_regras">REGRAS DO JOGO</a>
-	    		<a href="index.html#pag_sistemas">SISTEMAS</a>
-	    		<a href="index.html#pag_vantagens">VANTAGENS</a>
-	    		<a href="#">AGENDAMENTO</a>
-			
-
-		<hr/>
+		<section id="pag_agendamentos">
+		<main>
 			<h1>AGENDAMENTO</h1>
 			<p>Agende sua mesa de <strong>RPG agora mesmo!</strong></p>
+		</main>
 
 		<form name="Agendamento" method="" action="">
 
@@ -33,13 +37,20 @@
 
 			<label for="cell">Celular:</label><br/>
 			<input id="cell" type="tel" name="cell" placeholder="(12) 34567-7890" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" required="true" />
-			
-			<label for="data">Data:</label>
-			<input id="data" type="date" name="data" placeholder="XX/XX/XX" required="true" />
-
-			<label for="hour">Hora:</label>
-			<input id="hour" type="time" name="hour" placeholder="00:00" required="true" />
-
+		<div class="container">
+			<div class="types_dhs">
+				<label for="data">Data:</label>
+				<input id="data" type="date" name="data" placeholder="XX/XX/XX" required="true" />
+			</div>
+			<div class="types_dhs">
+				<label for="hour">Hora:</label>
+				<input id="hour" type="time" name="hour" placeholder="00:00" required="true" />
+			</div>
+			<div class="types_dhs">
+				<label for="mesa">Sessões:</label>
+				<input id="mesa" type="number" name="mesa" size="80" placeholder="" required="true" min="1" max="10" step="1" />
+			</div>
+		</div>
 			<label for="nivel">Nível:</label>
 			<select id="nivel" name="nivel">
 				<option value="">Selecione</option>
@@ -48,8 +59,6 @@
 				<option value="avançado">Avançado</option>
 			</select>
 
-			<label for="mesa">Numero de sessões:</label>
-			<input id="mesa" type="number" name="mesa" size="80" placeholder="" required="true" min="1" max="10" step="1" />
 
 			<fieldset>
 				 <legend>Gênero:</legend>
@@ -59,19 +68,24 @@
 
 			<fieldset>
 				<legend>Sistema:</legend>
-				<input id="DeD" type="checkbox" name="DeD" value="DeD" /><label for="DeD">Dungeons & Dragons (D&D)</label><br\>
-				<input id="Cyber" type="checkbox" name="Cyber" value="Cyber" /><label for="Cyber">Cyberpunk 2020</label><br\>
-				<input id="Call" type="checkbox" name="Call" value="Call" /><label for="Call">Call of Cthulhu</label><br\>
+				<input id="DeD" type="checkbox" name="DeD" value="DeD" /><label for="DeD">Dungeons & Dragons (D&D)</label><br>
+				<input id="Cyber" type="checkbox" name="Cyber" value="Cyber" /><label for="Cyber">Cyberpunk 2020</label><br>
+				<input id="Call" type="checkbox" name="Call" value="Call" /><label for="Call">Call of Cthulhu</label><br>
 			</fieldset>
 
-			<label>Mensagem:</label></form><br/>
-			<textarea id="msg" cols="80" rows="7">
+			<label>Mensagem:</label><br/>
+			<textarea id="msg" cols="50" rows="7">
 			</textarea>
 
-			<p><input type="submit" name="btn-agendar" value="AGENDAR" />
-			<input type="reset" name="btn-cancelar" value="CANCELAR" /></p>
-
+		<div class="container">
+			<input type="submit" name="btn-agendar" value="AGENDAR" />
+			<input type="reset" name="btn-cancelar" value="CANCELAR" />
+		</div>
 		</form>
-		<p>Desenvolvido por <a href="https://github.com/MoonThi" target="blank">Thiago Amâncio</a>- 2023 </p>
+		</section>
+
+		<footer>
+			<p>Desenvolvido por <a href="https://github.com/MoonThi" target="blank">Thiago Amâncio</a>- 2023 </p>
+		</footer>
 	</body>
 </html>
